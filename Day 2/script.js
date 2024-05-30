@@ -1,6 +1,6 @@
 setDate();
 
-function scrollToPercent(percent) {
+function scrollToPercent(percent) { //this function helps us stay in the appropriate position of our background
   // Calculate the target scroll position
   const background = document.querySelector(".background");
   const backgroundHeight = background.scrollHeight;
@@ -10,15 +10,13 @@ function scrollToPercent(percent) {
   // Scroll to the target position
   document.body.scrollTo({
     top: targetPosition,
-    /* behavior: "smooth", */ // Optional: adds smooth scrolling
   });
 }
-// Example usage: Scroll to 55% of the document's height
 scrollToPercent(55);
 // Add event listener for window resize
 window.addEventListener("resize", () => scrollToPercent(55));
 
-// Prevent scrolling
+// Prevent scrolling code
 /* document.body.addEventListener('wheel', function(e) {
     console.log(e);
   e.preventDefault();
