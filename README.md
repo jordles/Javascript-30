@@ -1,7 +1,7 @@
 ![](https://javascript30.com/images/JS3-social-share.png)
 
 # Javascript 30 Coding Challenge (Ongoing)
-This is my rendition of the [#Javascript30](https://javascript30.com/) Coding Challenge by [Wesbos](https://github.com/wesbos/JavaScript30), Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learning course, so I decided to do the whole challenge!
+This is my take on the [#Javascript30](https://javascript30.com/) Coding Challenge by [Wesbos](https://github.com/wesbos/JavaScript30), Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learning course, so I decided to do the whole challenge!
 
 [Demo](https://jordles.github.io/Javascript-30/)
 
