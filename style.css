@@ -5,7 +5,12 @@
   font-weight: 1;
   color: white;
 }
-
+@font-face {
+  font-family: 'ADAM.CD PRO';
+  src: url('fonts/ADAM.CG PRO.otf') format('opentype');
+  font-weight: 1;
+  font-style: normal;
+}
 :root{
   --gold: #ebb300;
   
