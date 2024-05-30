@@ -1,7 +1,7 @@
 ![](https://javascript30.com/images/JS3-social-share.png)
-
+This is my rendition of the #Javascript30 Coding Challenge by Wesbos
 # Javascript 30 Coding Challenge (Ongoing)
-
+This is my 
 ## Attributions
 
 * [leaves](https://clipart-library.com/clipart/8izrdA9LT.htm)
