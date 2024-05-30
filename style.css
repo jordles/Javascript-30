@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'ADAM.CG PRO';
+  font-weight: 1;
+  color: white;
+}
+
+:root{
+  --gold: #ebb300;
+  
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #06010a;
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 30%;
+}
+header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10%; /* Adjust the percentage to control the fading area */
+  background: linear-gradient(transparent, black); /* Adjust colors as needed */
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+a {
+  color: var(--gold);
+}
+
+svg{
+  fill: var(--gold);
+}
+/* .responsive{
+    width: 100%;
+    height: auto;
+} */
+
+.showcase {
+  /* width: 100%;
+    height: 80%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-rows: auto; /* Define rows explicitly */
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.challenges {
+  position: relative;
+  padding: 1%;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  background: /* url('./images/log-wood-svgrepo-com-cropped.svg'), */ linear-gradient(
+    #1d1c48,
+    #2e2346,
+    #432e4d
+  );
+
+}
+.challenges::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  
+  border: 20px solid transparent;
+  border-image-source: url('assets/leaves.png');
+  border-image-slice:
+  278 536 278 536;
+  border-image-width:
+  100px 300px 100px 300px;
+  border-image-outset:
+  0px 0px 0px 0px;
+  border-image-repeat:
+  round round;
+  filter: brightness(0); 
+  pointer-events: none;
+}
+
+.challenges:nth-of-type(odd)::before{
+  transform: scaleX(-1);
+}
+.challenges:nth-of-type(even)::before{
+  transform: scaleY(-1);
+}
+
+.challenges a{
+  text-decoration: none;
+}
+
+.gold {
+  color: var(--gold);
+}
+
+/* @media (min-width: 1450px) {
+  .showcase {
+      grid-template-columns: repeat(2, 1fr); 
+  }
+} */

@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    font-family: "Inknut Antiqua", serif;
+    text-align: center;
+}
+html, body{
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: url('https://png.pngtree.com/background/20230615/original/pngtree-the-zen-garden-as-a-japanese-place-picture-image_3542915.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+
+@keyframes expand{
+    from{
+        opacity: 1;
+        transform: scale(1);
+        border: solid rgba(255,255,255, 0.15);
+    }
+    to{
+        transform: scale(3);
+        border: solid rgba(255,255,255, 0.15);
+        opacity: 0;
+    }
+}
+
+.home{
+    position:fixed;
+    top:0;
+    left: 0;
+    padding: 1%;
+}
+
+#handpan-drum{
+    /* border: solid black; */
+    width: auto;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotate(25deg); */
+}
+
+#handpan-drum .key{
+    position: absolute;
+    /* border: solid black; */
+    /* filter: blur(5px); */
+    height: 18%;
+    width: 15%;
+    border-radius: 50%;
+    transform-origin: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1.5em; */
+    transition: all 1s;
+}
+#handpan-drum .key::after{
+    /* transform: scale(1);
+    opacity: 1; */
+
+    content: '';
+    position: absolute;
+    filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /* transition: all 2.5s; */
+    border: solid transparent;
+}
+
+#handpan-drum .key.playing::after{
+    /* transform: scale(3);
+    border: solid rgba(255,255,255, 0.15);
+    opacity: 0; */
+    animation: expand 2.5s; 
+}
+
+kbd{
+    font-size: 2rem;
+    font-weight: 800;
+    filter: drop-shadow(2px 0px 0 white)
+    drop-shadow(0px -2px 0 white)
+    drop-shadow(-2px 0px 0 white)
+    drop-shadow(0px 2px 0 white)
+    ;
+}
+
+.sound{
+    font-style: italic;
+    color: red;
+    position: absolute;
+    bottom: 12%;
+}
+
+#handpan-drum > .key.A{
+    flex-direction: row;
+    top: 13%;
+    left: 33.5%;
+    transform: rotate(80deg);
+}
+.A kbd, .A span{
+    transform: rotate(-80deg);
+}
+#handpan-drum > .key.S{
+    top: 30%;
+    left: 18%;
+    transform: rotate(30deg);
+    /* transform: perspective(100px) rotateZ(35deg) rotateY(350deg); */
+}
+.S kbd, .S span{
+    transform: rotate(-30deg);
+}
+
+#handpan-drum > .key.D{
+    bottom: 30%;
+    left: 19%;
+    transform: rotate(-10deg);
+}
+.D kbd, .D span{
+    transform: rotate(10deg);
+}
+
+#handpan-drum > .key.F{
+    bottom: 17%;
+    left: 33.5%;
+    transform: rotate(-40deg);
+}
+.F kbd, .F span{
+    transform: rotate(40deg);
+}
+
+#handpan-drum > .key.G{
+    left: 44.8%;
+    top: 41%;
+    height: 12%;
+    width: 12%;
+}
+.key.G .sound{
+    bottom: -5%;
+}
+#handpan-drum > .key.H{
+    bottom: 17%;
+    right: 33.5%;
+    transform: rotate(40deg);
+}
+.H kbd, .H span{
+    transform: rotate(-40deg);
+}
+
+#handpan-drum > .key.J{
+    bottom: 29%;
+    right: 19%;
+    transform: rotate(10deg);
+}
+.J kbd, .J span{
+    transform: rotate(-10deg);
+}
+
+#handpan-drum > .key.K{ 
+    top: 33%;
+    right: 16%;
+    transform: rotate(-25deg);
+}
+.K kbd, .K span{
+    transform: rotate(25deg);
+}
+
+#handpan-drum > .key.L{
+    top: 16%;
+    right: 28%;
+    transform: rotate(-65deg)
+}
+.L kbd, .L span{
+    transform: rotate(65deg);
+}
+
+
+@media all and (max-width:560px){
+    #handpan-drum{
+        width: 100%;
+        height: auto;
+    }
+    #handpan-drum img{
+        width: 100%;
+    }
+
+    .sound{
+        bottom: -10%;
+    }
+    .key.G .sound{
+        bottom: -40%;
+    }
+}
