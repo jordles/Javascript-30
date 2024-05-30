@@ -14,9 +14,9 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  2  | [JS + CSS Clock][2]                                 |  May 28, 2024  |
 |  3  | [CSS Variables][3]                                  |  May 29, 2024  |
 
-[1]: /Day1
-[2]: /Day2
-[3]: /Day3
+[1]: /Day-1
+[2]: /Day-2
+[3]: /Day-3
 
 ## Attributions
 
