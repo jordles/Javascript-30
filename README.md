@@ -27,3 +27,7 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 * [Unsplash](https://unsplash.com/)
 * [IconMonstr](https://iconmonstr.com/)
 * [Border Image Generator](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator)
+
+## Note
+
+If you like this repo and find it useful, please consider ★ starring it (on top right of the page). Thanks!
