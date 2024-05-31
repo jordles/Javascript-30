@@ -14,5 +14,9 @@ function handleUpdate() {
   document.documentElement.style.setProperty(
     `--${this.name}`, this.value + suffix
   );
+  if(this.name == "size"){
+    document.querySelector("#image-wrapper").style.width = "min-content";
+  }
+  
 }
 
