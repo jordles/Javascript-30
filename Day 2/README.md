@@ -3,7 +3,7 @@
 Inspiration is drawn from Mike Mak. If you hover over the minute hand, you will see the second hand.  
 I was going for a horror vibe, the idea is someone is stalking you... 👁️👄👁️
 
-## Attributes
+## Attribution
 
 * [Eye Clock Design/Inspiration](https://www.mikemak.com/)
 * [Background Photo](https://unsplash.com/photos/man-in-grey-t-shirt-wearing-black-cap-v6CsrFKOxY4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
