@@ -2,7 +2,7 @@
 
 Changed up a couple photos and changed the behavior so its more intuitive. 
 
-## Attributes
+## Attribution
 
 * [Ice](https://images.unsplash.com/photo-1517032880222-1afedf8c9d0d?q=80&w=2572&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 * [Veggies](https://images.unsplash.com/photo-1464297162577-f5295c892194?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
