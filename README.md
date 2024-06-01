@@ -14,11 +14,14 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  2  | [JS + CSS Clock][2]                                 |  May 28, 2024  |
 |  3  | [CSS Variables][3]                                  |  May 29, 2024  |
 |  4  | [Array Cardio Day 1][4]                             |  May 30, 2024  |
+|  5  | [Flex Panel Gallery][5]                             |  June 1, 2024  |
 
 [1]: /Day%201
 [2]: /Day%202
 [3]: /Day%203
 [4]: /Day%204
+[5]: /Day%205
+
 <!-- %20 is the URL encoding for a space -->
 
 ## Attributions
