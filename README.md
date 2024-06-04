@@ -18,6 +18,7 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  6  | [Ajax Type Ahead][6]                                |  June 1, 2024  |
 |  7  | [Array Cardio Day 2][7]                             |  June 3, 2024  |
 |  8  | [Fun With HTML5 Canvas][8]                          |  June 3, 2024  |
+|  9  | [Dev Tools Domination][9]                           |  June 4, 2024  |
 
 [1]: /Day%201
 [2]: /Day%202
@@ -27,6 +28,7 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 [6]: /Day%206
 [7]: /Day%207
 [8]: /Day%208
+[9]: /Day%209
 
 <!-- %20 is the URL encoding for a space -->
 
