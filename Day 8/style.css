@@ -1,0 +1,11 @@
+html, body {
+    margin: 0;
+}
+
+.home{
+    position:fixed;
+    top:0;
+    left: 0;
+    padding: 1%;
+    color: black;
+}
