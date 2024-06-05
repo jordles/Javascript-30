@@ -19,16 +19,18 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  7  | [Array Cardio Day 2][7]                             |  June 3, 2024  |
 |  8  | [Fun With HTML5 Canvas][8]                          |  June 3, 2024  |
 |  9  | [Dev Tools Domination][9]                           |  June 4, 2024  |
+|  10  | [Hold Shift and Check Checkboxes][10]              |  June 5, 2024  |
 
-[1]: /Day%201
-[2]: /Day%202
-[3]: /Day%203
-[4]: /Day%204
-[5]: /Day%205
-[6]: /Day%206
-[7]: /Day%207
-[8]: /Day%208
-[9]: /Day%209
+[1]: /Day%2001
+[2]: /Day%2002
+[3]: /Day%2003
+[4]: /Day%2004
+[5]: /Day%2005
+[6]: /Day%2006
+[7]: /Day%2007
+[8]: /Day%2008
+[9]: /Day%2009
+[10]: /Day%2010
 
 <!-- %20 is the URL encoding for a space -->
 
