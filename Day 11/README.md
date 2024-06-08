@@ -6,8 +6,7 @@ I wanted to use a HD video for my fullscreen functionality to make the video cle
 I added a couple new features like: fullscreen, and intuitive designs like adding logos for volume and playback, displaying the current video length / duration.  
 
 I learned alot about the video element, including the difference between progress and timeupdate (though at the time this tutorial was made, these probably weren't defined and thoroughly explained yet)  
-Nonetheless, the difference is that progress tracks the loading progress of a media data, often used to display the loading progress visually, while timeupdate is specifically used to   
-track the playback time as the media plays, and will trigger alot more than progress on events. 
+Nonetheless, the difference is that progress tracks the loading progress of a media data, often used to display the loading progress visually, while timeupdate is specifically used to track the playback time as the media plays, and will trigger alot more than progress on events. 
 
 ## Attribution
 * None
