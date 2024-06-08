@@ -20,6 +20,7 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  8  | [Fun With HTML5 Canvas][8]                          |  June 3, 2024  |
 |  9  | [Dev Tools Domination][9]                           |  June 4, 2024  |
 |  10  | [Hold Shift and Check Checkboxes][10]              |  June 5, 2024  |
+|  11  | [Custom Video Player][11]                          |  June 7, 2024  |
 
 [1]: /Day%2001
 [2]: /Day%2002
@@ -31,6 +32,7 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 [8]: /Day%2008
 [9]: /Day%2009
 [10]: /Day%2010
+[11]: /Day%2011
 
 <!-- %20 is the URL encoding for a space -->
 
