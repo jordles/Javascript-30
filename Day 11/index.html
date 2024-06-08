@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Tools Domination</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a href="../" alt="Home"><span class="material-icons-round home">home</span></a>
+
+    <div class="player">
+     <video class="player__video viewer" src="./media/bbb_sunflower_2160p.mp4"></video>
+
+    
+     <div class="player__controls">
+       <div class="progress">
+        <div class="progress__filled"></div>
+       </div>
+       <button class="player__button toggle" title="Toggle Play">►</button>
+       <span class="video-duration"></span>
+
+       <span class="material-symbols-rounded player__button">volume_up</span><span class="volume-text">100%</span>
+       <input type="range" name="volume" class="player__slider" min="0" max="1" step="0.05" value="1">
+
+       <span class="material-symbols-rounded player__button">slow_motion_video</span><span class="playbackRate-text">1.0</span>
+       <input type="range" name="playbackRate" class="player__slider" min="0.25" max="2" step="0.25" value="1">
+
+       <button data-skip="-10" class="player__button">« 10s</button>
+       <button data-skip="25" class="player__button">25s »</button>
+       <button class="player__button"><span class="material-symbols-rounded fullscreen">fullscreen</span></button>
+     </div>
+   </div>
+   <footer>
+    Blender Foundation | <a href="https://www.blender.org/" target= "_blank" alt="Blender">www.blender.org</a> | <a href="https://peach.blender.org/" target = "_blank" alt="Peach Blender">https://peach.blender.org</a>
+   </footer>
+</body>
+</html>
