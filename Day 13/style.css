@@ -1,0 +1,64 @@
+html {
+      box-sizing: border-box;
+      background-color: #DFDBE5;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      font-family: 'helvetica neue';
+      font-size: 20px;
+      font-weight: 200;
+}
+
+body {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.home{
+    position:fixed;
+    top:0;
+    left: 0;
+    padding: 1%;
+    color: black;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.site-wrap {
+    max-width: 700px;
+    margin: 100px auto;
+    background: white;
+    padding: 40px;
+    text-align: justify;
+}
+
+.align-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.align-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.slide-in {
+    opacity: 0;
+    transition: all .5s;
+}
+
+.align-left.slide-in {
+    transform: translateX(-10vw) scale(0.95);
+}
+
+.align-right.slide-in {
+    transform: translateX(10vw) scale(0.95);
+}
+
+.slide-in.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+}

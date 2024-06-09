@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    transition: all 0.5s; 
+}
+html{
+    display: flex;
+    height: 100%;
+}
+body{
+    margin: auto;
+}
+.home{
+    position:fixed;
+    top:0;
+    left: 0;
+    padding: 1%;
+    color: black;
+}
+p, .code{
+    font-size: 5rem;
+}
+.word{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 20rem;
+    color: white;
+}
+.code{
+  background: linear-gradient(0deg, rgba(195,66,34,1) 0%, rgba(248,253,45,1) 16%, rgba(67,253,45,1) 35%, rgba(45,253,247,1) 55%, rgba(79,45,253,1) 75%, rgba(253,45,217,1) 95%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+.word > span:hover{
+    color: black;
+}
+
+
