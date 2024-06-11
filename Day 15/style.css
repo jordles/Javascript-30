@@ -2,6 +2,7 @@ html, body{
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+    font-family: 'Caveat Brush', "Trebuchet MS", Arial, sans-serif;
 }
 *,
 *:before,
@@ -44,6 +45,7 @@ svg {
   max-width: 350px;
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 
 h2 {
@@ -81,14 +83,14 @@ h2 {
 }
 
 .plates input:checked + label:before {
-  content: "🍣";
+  content: "🍥";
 }
 
-.add-items {
+.add-items, button {
   margin-top: 20px;
 }
 
-.add-items input {
+.add-items input, button {
   padding: 10px;
   outline: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
