@@ -3,7 +3,7 @@
 Fun and helpful lesson! Please check the console for the lesson. 
 
 ## Attribution
-* None
+* [background](https://bgjar.com/animated-shape)
 
 
 ## Key Topics
