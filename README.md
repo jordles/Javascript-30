@@ -25,6 +25,8 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  13  | [Slide in on Scroll][13]                           |  June 8, 2024  |
 |  14  | [Javascript References vs Copying][14]             |  June 9, 2024  |
 |  15  | [Local Storage][15]                                |  June 10, 2024 |
+|  16  | [Mouse Move Shadow][16]                            |  June 11, 2024 |
+|  17  | [Sort Without Articles][17]                        |  June 11, 2024 |
 
 [1]: /Day%2001
 [2]: /Day%2002
@@ -41,6 +43,8 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 [13]: /Day%2013
 [14]: /Day%2014
 [15]: /Day%2015
+[16]: /Day%2016
+[17]: /Day%2017
 
 <!-- %20 is the URL encoding for a space -->
 
