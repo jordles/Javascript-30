@@ -4,7 +4,7 @@ I used an object to keep track of the original instead (just a different way of 
 With the original, only the conditional has the function applied, so nothing about the array has changed and we can return the order like so. 
 
 ## Attribution
-* [background]([https://bgjar.com/animated-shape](https://unsplash.com/photos/people-raising-hands-on-concert-jfU3_67YiwQ))
+* [background](https://unsplash.com/photos/people-raising-hands-on-concert-jfU3_67YiwQ)
 
 
 ## Key Topics
