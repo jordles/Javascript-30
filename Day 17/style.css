@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: "RocknRoll One", sans-serif;
+    color: white;
+    background: url("https://images.unsplash.com/photo-1514088939728-eced9016166a?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#bands {
+    list-style: inside;
+
+    font-size: 20px;
+    background: rgb(255 255 255 / 10%);
+    /* background: rgb(0 0 0 / 10%); */
+    backdrop-filter: blur(15px);
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 0 0 20px rgb(255 255 255 / 5%);
+    border-radius: 5px;
+}
+
+#bands li {
+    padding: 20px;
+}
+
+#bands li::marker{
+    content: '🎵 ';
+    color: transparent;
+    text-shadow: 0 0 0 white;
+}
+
+#bands li:nth-child(even){
+    background: rgb(255 255 255 / 10%);
+}
+
+#bands li:last-child {
+    border-bottom: 0;
+}
+
+a {
+    color: #ffc600;
+    text-decoration: none;
+}
+
+.home{
+    position:fixed;
+    top:0;
+    left: 0;
+    padding: 1%;
+    color: black;
+}

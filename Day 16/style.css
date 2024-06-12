@@ -1,0 +1,31 @@
+html {
+    color: black;
+    font-family: cursive;
+    font-weight: bolder;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  h1 {
+    text-shadow: 10px 10px 0 rgba(0,0,0,1);
+    font-size: 100px;
+    transition: all 0.5s ; 
+  }
+
+  .home{
+    position:fixed;
+    top:0;
+    left: 0;
+    padding: 1%;
+    color: black;
+}
