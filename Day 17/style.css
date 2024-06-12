@@ -10,7 +10,7 @@ body {
 }
 
 #bands {
-    list-style: inside;
+    list-style: none;
 
     font-size: 20px;
     background: rgb(255 255 255 / 10%);
@@ -27,8 +27,14 @@ body {
     padding: 20px;
 }
 
-#bands li::marker{
+/* #bands li::marker{ 
+    THIS IS NOT SUPPORTED ON SAFARI FULLY (lets create our own) 
     content: '🎵 ';
+    color: transparent;
+    text-shadow: 0 0 0 white;
+} */
+
+.marker{
     color: transparent;
     text-shadow: 0 0 0 white;
 }
@@ -51,5 +57,5 @@ a {
     top:0;
     left: 0;
     padding: 1%;
-    color: black;
+    color: white;
 }

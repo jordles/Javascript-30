@@ -25,4 +25,9 @@ const bandSortedObjects = bands.map(
 const sortedBands = bandSortedObjects.map((band) => band.original);
 
 document.querySelector('#bands').innerHTML =
-    sortedBands.map((band) => `<li>${band}</li>`).join('');
+    sortedBands.map((band) => `
+    <li class="band-item">
+        <span class="marker">🎵</span>
+        <span>${band}</span>
+    </li>
+    `).join('');

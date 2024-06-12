@@ -6,7 +6,7 @@
   color: white;
 }
 @font-face {
-  font-family: 'ADAM.CD PRO';
+  font-family: 'ADAM.CG PRO';
   src: url('fonts/ADAM.CG PRO.otf') format('opentype');
   font-weight: 1;
   font-style: normal;
@@ -104,7 +104,8 @@ svg{
   border-image-repeat:
   round round;
   filter: brightness(0); 
-  pointer-events: none;
+  /* pointer-events: none; */
+
 }
 
 .challenges:nth-of-type(odd)::before{
@@ -115,13 +116,20 @@ svg{
 }
 
 .challenges a{
+  position: relative;
   text-decoration: none;
+  z-index: 1;
 }
 
 .gold {
   color: var(--gold);
 }
 
+@media (max-width: 450px){
+  .showcase{
+    grid-template-columns: auto;
+  }
+}
 /* @media (min-width: 1450px) {
   .showcase {
       grid-template-columns: repeat(2, 1fr); 
