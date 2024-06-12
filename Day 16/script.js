@@ -3,11 +3,11 @@ const text = hero.querySelector('h1');
 const walk = 200; 
 function shadow(e){
     const {offsetWidth: width, offsetHeight: height} = hero;
-    let {offsetX: x, offsetY: y} = e;
-    if(this !== e.target){
+    let {clientX: x, clientY: y} = e;
+    /* if(this !== e.target){ //not needed
         x = x + e.target.offsetLeft;
         y = y + e.target.offsetTop;
-    }
+    } */
 
     const xWalk = Math.round((x / width * walk) - (walk / 2));
     const yWalk = Math.round((y / height * walk) - (walk / 2));
@@ -30,4 +30,4 @@ function shadow(e){
     
 }
 
-hero.addEventListener('mousemove', shadow);
+document.addEventListener('mousemove', shadow);
