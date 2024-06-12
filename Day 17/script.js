@@ -14,6 +14,11 @@ const bands = [
   "An Old Dog",
 ];
 
+/* function strip(bandName){
+    return bandName.replace(/^(the |an |a )/i, '');
+}
+const sortedBand = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1); */
+
 const bandSortedObjects = bands.map(
     (band) => ({
         original: band, 
