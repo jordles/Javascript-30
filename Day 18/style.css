@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    font-family: "Limelight", sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+body{
+    background: url('https://images.unsplash.com/photo-1613210434051-4b00d62d03fb?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5%;
+}
+
+.home{
+    position:fixed;
+    top:0;
+    left: 0;
+    padding: 1%;
+    color: white;
+}
+h1{
+    font-size: 3rem;
+}
+.videos{
+    width: 500px;
+    font-size: 20px;
+    /* border: solid black; */
+    margin: 0 auto;
+    backdrop-filter: blur(15px);
+    background: rgb(0 0 0 / 30%);
+    border: 14px dashed rgb(0 0 0 / 25%);
+    /* box-shadow: 0 0 0 20px rgb(0 0 0 / 25%); */
+    border-radius: 5px;
+}
+
+.videos li{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.videos li:nth-child(even){
+    background: rgb(255 255 255 / 10%);
+}
+
+@media all and (max-width: 500px){
+    .videos{
+        width: 100%;
+    }
+}
