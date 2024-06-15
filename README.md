@@ -28,6 +28,7 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  16  | [Mouse Move Shadow][16]                            |  June 11, 2024 |
 |  17  | [Sort Without Articles][17]                        |  June 11, 2024 |
 |  18  | [Adding Up Times with Reduce][18]                  |  June 12, 2024 |
+|  19  | [Webcam Fun][19]                                   |  June 14, 2024 |
 
 [1]: /Day%2001
 [2]: /Day%2002
@@ -47,6 +48,7 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 [16]: /Day%2016
 [17]: /Day%2017
 [18]: /Day%2018
+[19]: /Day%2019
 
 <!-- %20 is the URL encoding for a space -->
 
