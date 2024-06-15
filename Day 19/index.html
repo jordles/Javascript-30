@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam Fun</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a href="../" alt="Home"><span class="material-icons-round home">home</span></a>
+    <div class="photobooth">
+        
+        <div class="camera">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 250 280.028" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g>   <path style="fill:#E4E5E6;" d="M122.512,35.004c57.992,0,105.01,47.018,105.01,105.01s-47.018,105.01-105.01,105.01 s-105.01-47.018-105.01-105.01S64.52,35.004,122.512,35.004z"></path> <path style="fill:#5B717C;" d="M122.512,61.257c43.5,0,78.758,35.257,78.758,78.758c0,43.492-35.257,78.758-78.758,78.758 s-78.758-35.257-78.758-78.758C43.754,96.523,79.011,61.257,122.512,61.257z"></path> <path style="fill:#2B414D;" d="M122.512,87.51c29,0,52.505,23.514,52.505,52.505s-23.505,52.505-52.505,52.505 c-28.992,0-52.505-23.522-52.505-52.505S93.52,87.51,122.512,87.51z"></path> <path style="fill:#FFFFFF;" d="M144.389,105.011c7.246,0,13.126,5.881,13.126,13.126c0,7.254-5.881,13.126-13.126,13.126 s-13.126-5.872-13.126-13.126S137.143,105.011,144.389,105.011z"></path>   </g> </g></svg>
+        </div>
+        <div class="canvas-wrapper">
+            <canvas class="photo"></canvas>
+            <div class="timer-countdown displayNone">3</div>
+        </div>
+        
+
+        <video class="player"></video>
+        <div class="controls">
+            <button data-category = "filter">Filter</button>
+            <button class="takePhoto"onClick="takePhoto()">Take Photo</button>
+            <button class="timer">Timer</button>
+            <button data-category = "greenScreen">Green Screen</button>
+        </div>
+        <div class="control-panel">
+            <div class="filter none">
+                <div data-color="red" class="circle"></div>
+                <div data-color="green" class="circle"></div>
+                <div data-color="blue" class="circle"></div>
+                <div data-color="cyan" class="circle"></div>
+                <div data-color="magenta" class="circle"></div>
+                <div data-color="yellow" class="circle"></div>
+                <div data-color="rgbSplit"class="circle split"></div>
+            </div>
+            <div class="greenScreen none">
+                <div class="rgb">
+                    <div class="rgb-wrapper">
+                        <label for="rmin">Red Min:</label>
+                        <input type="range" min=0 max=255 name="rmin">
+                    </div>
+                    <div class="rgb-wrapper">
+                        <label for="rmax">Red Max:</label>
+                        <input type="range" min=0 max=255 name="rmax">
+                    </div>
+                    <div class="rgb-wrapper">
+                        <label for="gmin">Green Min:</label>
+                        <input type="range" min=0 max=255 name="gmin">
+                    </div>
+                    <div class="rgb-wrapper">
+                        <label for="gmax">Green Max:</label>
+                        <input type="range" min=0 max=255 name="gmax">
+                    </div>
+                    <div class="rgb-wrapper">
+                        <label for="bmin">Blue Min:</label>
+                        <input type="range" min=0 max=255 name="bmin">
+                    </div>
+                    <div class="rgb-wrapper">
+                        <label for="bmax">Blue Max:</label>
+                        <input type="range" min=0 max=255 name="bmax">
+                    </div>
+                </div>
+                
+                
+                <div class="greenScreen-background">
+                    <div class="greenScreen-wrapper">
+                        <label for="bgcolor">Background Color:</label>
+                        <input type="color" name="bgcolor" value="#FFFFFF">
+                    </div>
+                    
+                    <div class="greenScreen-wrapper">
+                        <label for="fileSubmit"> Upload Background Image: </label>
+                        <input type="file" name="fileSubmit">
+                    </div>
+                </div>
+                
+                <br>
+                
+                <button class ="reset">Reset</button>
+            
+            </div>
+
+        </div>
+        
+        <div class="strip"></div>
+        <button class="print-button displayNone">Print</button>
+    </div>
+    <div class="print-machine"></div>
+    <div class="print"></div>
+    
+
+  <div class="instructions">
+    <p>Please look at your camera, and press the take photo button below</p>
+    <p>You can set a timer of 3 seconds</p>
+    <p>Choose which 3 photos you like and we will print it out for you!!</p>
+  </div>
+  <audio class="snap" src="./media/snap.mp3" hidden></audio>
+</body>
+</html>
