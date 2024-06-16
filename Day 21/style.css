@@ -1,0 +1,48 @@
+html {
+      font-size: 100px;
+    }
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://img.freepik.com/free-vector/army-camouflage-vector-seamless-pattern-texture-military-camouflage-repeats-seamless-army-design-vector-background_1142-15054.jpg?w=1380&t=st=1718507704~exp=1718508304~hmac=a95f40fc5c0c7c2958c8abcefdb1b830ef3f091b20a92468376e6c590dabb959');
+    /* radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px; */
+    /* background-color: #282828;
+    background-size: 16px 16px;
+    background-attachment: fixed; */
+}
+.home{
+    position:fixed;
+    top:0;
+    left: 0;
+    padding: 1%;
+    color: white;
+}
+.arrow {
+    width: 250px;
+    overflow: hidden;
+    transition: all 0.2s;
+    transform: rotate(0deg);
+    display: inline-block;
+}
+
+h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.units {
+    font-size: 15px;
+}
+/*Compass: https://thenounproject.com/search/?q=compass&i=592352*/
