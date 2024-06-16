@@ -29,7 +29,7 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  17  | [Sort Without Articles][17]                        |  June 11, 2024 |
 |  18  | [Adding Up Times with Reduce][18]                  |  June 12, 2024 |
 |  19  | [Webcam Fun][19]                                   |  June 14, 2024 |
-|  20  | Speech Detection][20]                              |  June 15, 2024 |
+|  20  | [Speech Detection][20]                             |  June 15, 2024 |
 |  21  | [Geolocation][21]                                  |  June 15, 2024 |
 
 [1]: /Day%2001
