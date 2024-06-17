@@ -31,6 +31,8 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  19  | [Webcam Fun][19]                                   |  June 14, 2024 |
 |  20  | [Speech Detection][20]                             |  June 15, 2024 |
 |  21  | [Geolocation][21]                                  |  June 15, 2024 |
+|  22  | [Follow Along Link Highligher][22]                 |  June 16, 2024 |
+|  23  | [Speech Synthesis][23]                             |  June 16, 2024 |
 
 [1]: /Day%2001
 [2]: /Day%2002
@@ -53,6 +55,8 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 [19]: /Day%2019
 [20]: /Day%2020
 [21]: /Day%2021
+[22]: /Day%2022
+[23]: /Day%2023
 
 <!-- %20 is the URL encoding for a space -->
 
