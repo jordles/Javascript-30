@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Synthesis</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a href="../" alt="Home"><span class="material-icons-round home">home</span></a>
+    <div class="voiceinator">
+        <h1>The Voiceinator 5000</h1>
+        <div class="controls">
+            <select name="voice" id="voices">
+                <option value="">Select A Voice</option>
+            </select>
+            <button id="speak">
+                <span class="material-icons-round play">play_arrow</span>
+            </button>
+            <button id="stop">
+                <span class="material-icons-round stop">stop</span>
+            </button>
+            
+
+            <div class="range">
+                <div class="range-wrapper">
+                    <label for="rate">Rate: 
+                        <span data-name = "rate">1</span>
+                    </label>
+                    <input name="rate" type="range" min="0" max="2" value="1" step="0.1">
+                </div>
+                
+                <div class="range-wrapper">
+                    <label for="pitch">Pitch: 
+                        <span data-name = "pitch">1</span>
+                    </label>
+                    <input name="pitch" type="range" min="0" max="2" step="0.1">
+                </div>
+                
+            </div>
+            
+            
+            
+        </div>
+        <textarea name="text">Hello! I love JavaScript 👍</textarea>
+    </div>
+</body>
+</html>

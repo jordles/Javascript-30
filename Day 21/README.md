@@ -1,7 +1,7 @@
-# Day 20 Geolocation
+# Day 21 Geolocation
 
 Nothing much to add, just added a nice camo and made the compass gold. Test on your phone for more accurate (working) results. The final results are really dependent on the phone, and may not always work as intended though.   
-Testing on my phone, shows the compass is spinning and the speed moves, however it produces weird results, and doesn't move the compass continously
+Testing on my phone, shows the compass is spinning and the speed moves, however it produces weird results, and doesn't move the compass continously.
 
 ## Attribution
 * none
