@@ -33,6 +33,8 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  21  | [Geolocation][21]                                  |  June 15, 2024 |
 |  22  | [Follow Along Link Highligher][22]                 |  June 16, 2024 |
 |  23  | [Speech Synthesis][23]                             |  June 16, 2024 |
+|  24  | [Sticky Nav][24]                                   |  June 17, 2024 |
+|  25  | [Understanding Event Propagation][25]              |  June 17, 2024 |
 
 [1]: /Day%2001
 [2]: /Day%2002
@@ -57,6 +59,8 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 [21]: /Day%2021
 [22]: /Day%2022
 [23]: /Day%2023
+[24]: /Day%2024
+[25]: /Day%2025
 
 <!-- %20 is the URL encoding for a space -->
 
