@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Javascript's Capture</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+    <script src="script.js" defer></script>
+</head>
+<body class="bod">
+    <a href="../" alt="Home"><span class="material-icons-round home">home</span></a>
+    <h1>Understanding Event Propagation</h1>
+    <p>The concept describes how events are propagated from the root element to the target element.</p>
+
+    <div class="container">
+        <div class="wrapper">
+            <h3>Event Bubbling</h3>
+            <p>Bubbling is a concept that allows us to listen to events on the parent element because they are wrapped around the child we are targeting. It propagates(bubbles) up from the target element until it reaches the root element. </p>
+        </div>
+
+        <div class="wrapper">
+            <h3>Event Capturing</h3>
+            <p>Capturing is a concept thats allows us to listen to events running in the opposite direction of bubbling. It allows us to listen from the top, going down the DOM hierarchy.</p>
+        </div>
+
+        <div class="wrapper">
+            <h3>Stopping Propagation</h3>
+            <p>You can stop an event from bubbling or capturing by calling event.stopPropagation(). You will only trigger an event on the target element. </p>
+        </div>
+    </div>
+    <div class="box one"><span></span>
+        <div class="box two"><span></span>
+        <div class="box three"><span></span></div>
+        </div>
+    </div>
+
+    <select name="" id="propagation-mode">
+        <option>Bubbling</option>
+        <option>Capture</option>
+        <option>Stop Propagation</option>
+    </select>
+</body>
+</html>
