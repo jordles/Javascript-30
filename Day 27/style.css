@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  /* background: url('https://source.unsplash.com/NFs6dRTBgaM/2000x2000') fixed;
-  background-size: cover; */
 }
 
 *, *:before, *:after {
@@ -36,32 +34,17 @@ body {
   linear-gradient(rgb(226, 205, 114), rgb(44, 155, 185));
 }
 .items {
-  
-  /* width: 100%; */
-  /* border: 1px solid white; */
   height: 100%;
-  /* overflow-y: hidden; */
-  /* white-space: nowrap;
-  user-select: none; */
   cursor: grab;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
-  /* transform: scale(0.98); */
-  /* will-change: transform; */
-  /* position: relative; */
-  
-  /* font-size: 0; */
   display: flex;
   gap: 20px;
-  /* border: solid black; */
 }
 
 .items.active {
-  /* background: rgba(255,255,255,0.3); */
   cursor: grabbing;
- /*  cursor: -webkit-grabbing; */
   scroll-snap-type: none;
-  /* transform: scale(1); */
 }
 
 .wrapper{
@@ -74,26 +57,12 @@ body {
 }
 
 .item {
-  /* width: 200px;
-  height: calc(100% - 40px);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 80px;
-  font-weight: 100;
-  color: rgba(0,0,0,0.15);
-  box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15); */
   width: 300px;
   height: 400px;
-  /* flex: 0 0 auto; */
-  /* border:1px solid rgba(150,150,150,0.2); */
   background: linear-gradient(to bottom, rgb(255 255 255 / 0.1), transparent);
   overflow: hidden;
-  /* position: relative; */
   border-radius: 5px;
-  /* margin: 50px auto; */
   text-align: center;
-  /* line-height:400px; */
   box-shadow: inset 5px 5px 20px rgba(255,255,255,0.1);
   animation: hover 3s ease-in-out infinite;
   
