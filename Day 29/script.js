@@ -36,11 +36,7 @@ function parseData(){
 }
 function startTimer(time){
   clearInterval(countdown);
-  console.log(time);
   let seconds = parseTime(time);
-  console.log('time', time);
-  console.log(seconds);
-  /* console.log(seconds); */
   const endTime = Date.now() + seconds * 1000; //because date.now returns in ms, we have to convert our seconds to ms
 
   displayTimeLeft(seconds);
@@ -105,8 +101,25 @@ document.customForm.addEventListener('submit', function(e) {
 function addButton(time){
   const button = document.createElement('button');
   button.setAttribute('data-time', time);
-  const timeParse = time.split(':').map(str => str.padStart(2, "0")).join(':');
-  button.textContent = timeParse;
+  const timeParts = time.split(":");
+
+  const timeParse = timeParts
+    .map((str, index) => {
+      return {value: str.padStart(2, "0"), index: index};
+    })
+    
+  if(!time.includes(':')){ //default is mins 
+    button.textContent = `${time} min(s)`;
+  }
+  else if(timeParse.filter(parts => parts.value !== '00').length == 1){
+    const filteredTime = timeParse.filter(parts => parts.value !== '00');
+    console.log('filteredTime', filteredTime);
+    const unit = ["hour(s)", "min(s)", "secs"][filteredTime[0].index];
+    button.textContent = `${filteredTime[0].value} ${unit}`;
+  }
+  else{
+    button.textContent = timeParse.map(parts => parts.value).join(":");
+  }
   button.addEventListener('click', parseData);
   document.querySelector('.selection').appendChild(button);
 }
