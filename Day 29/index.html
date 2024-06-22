@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="../normalize.css">
+  <link rel="stylesheet" href="../reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a href="../" alt="Home"><span class="material-icons-round home">home</span></a>
+  <p class="instructions">Default value is minutes, but you can specify hours with 'hours:minutes' format, and seconds with 'hours:minutes:seconds' <br>
+    Preceding values are optional, but you must include the colons for accurate formatting (ex: '::30' represents 30 secs). 
+  </p>
+  <form name="customForm" id="custom">
+    <label class="timer-label" for="timer-input">Custom timer</label>
+    <input type="text" name="timer-input" placeholder="Enter Minutes">
+    <button class="play-timer">
+      <span class="material-symbols-rounded timer-icon">timer_play</span>
+    </button>
+    <button class="add-timer">
+      <span class="material-symbols-rounded timer-icon">alarm_add</span>
+    </button>
+  </form>
+  <div class="display">
+    <h1 class="timer">Please select or add a timer</h1>
+    <p class="end-time"></p>
+  </div>
+  <div class="selection">
+    <button data-time = "::30">30 secs</button>
+    <button data-time = "1">1 min(s)</button>
+    <button data-time = "5">5 min(s)</button>
+    <button data-time = "15">15 min(s)</button>
+    <button data-time = "20">20 min(s)</button>
+    <button data-time = "1:">1 hour</button>
+  </div>
+</body>
+</html>
