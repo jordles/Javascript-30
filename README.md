@@ -37,6 +37,8 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  25  | [Understanding Event Propagation][25]              |  June 17, 2024 |
 |  26  | [Follow Along Nav][26]                             |  June 19, 2024 |
 |  27  | [Click and Drag][27]                               |  June 19, 2024 |
+|  28  | [Video Speed Controller][28]                       |  June 20, 2024 |
+|  29  | [Countdown Timer][29]                              |  June 21, 2024 |
 
 [1]: /Day%2001
 [2]: /Day%2002
@@ -65,6 +67,8 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 [25]: /Day%2025
 [26]: /Day%2026
 [27]: /Day%2027
+[28]: /Day%2028
+[29]: /Day%2029
 
 <!-- %20 is the URL encoding for a space -->
 
