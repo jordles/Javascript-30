@@ -1,6 +1,6 @@
 # Day 30 Pop the Pimple! (Whack a Mole)
 
-As someone who still has frequent acne through adulthood, i decided on a pimple theme, because the concept was fun and exciting to me.  
+I decided on a pimple theme, because the concept was fun and relatable to me.
 I added different difficulties, including enflamed pimples, which require two clicks(pinches) to pop. The cursor is a hand pinching.
 The hard mode has 50% of spawning an enflamed pimple. 
 
