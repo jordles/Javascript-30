@@ -11,7 +11,7 @@ const difficultyLevels = {
   easy: {
     min: 700,
     max: 1000,
-    enflamed: 10,
+    enflamed: 5,
   },
   normal: {
     min: 500,
