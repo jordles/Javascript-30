@@ -12,4 +12,4 @@ The hard mode has 50% of spawning an enflamed pimple.
 
 
 ## Key Topics
-* I used a lot of concepts we've learned over this challenge course: event listeners, built-in objects like Math that allows us to randomize data through the random method, scopes, flags, counters, traversing the and targeting elements in the DOM. 
+* I used a lot of concepts we've learned over this challenge course: event listeners, built-in objects like Math that allows us to randomize data through the random method, scopes, flags, counters, traversing and targeting elements in the DOM. 
