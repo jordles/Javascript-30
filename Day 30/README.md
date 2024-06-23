@@ -7,7 +7,7 @@ The hard mode has 50% of spawning an enflamed pimple.
 ** Note: please do not pop your pimples, it will cause scarring. **
 
 ## Attribution
-* [pimple sound](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=103934">Pixabay)
+* [pimple sound](https://pixabay.com/sound-effects/tomato-squish-80465/)
 * [cursor](https://www.svgrepo.com/svg/434202/pinch-hand)
 
 
