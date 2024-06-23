@@ -1,6 +1,6 @@
 ![](https://javascript30.com/images/JS3-social-share.png)
 
-# Javascript 30 Coding Challenge (Ongoing)
+# Javascript 30 Coding Challenge
 This is my take on the [#Javascript30](https://javascript30.com/) Coding Challenge by [Wesbos](https://github.com/wesbos/JavaScript30)  
 Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learning course, so I decided to do the whole challenge!
 
@@ -39,6 +39,7 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 |  27  | [Click and Drag][27]                               |  June 19, 2024 |
 |  28  | [Video Speed Controller][28]                       |  June 20, 2024 |
 |  29  | [Countdown Timer][29]                              |  June 21, 2024 |
+|  30  | [Pop the Pimple][30]                               |  June 22, 2024 |
 
 [1]: /Day%2001
 [2]: /Day%2002
@@ -69,6 +70,7 @@ Day 4 challenge was a part of the [100Devs](https://leonnoel.com/100devs/) learn
 [27]: /Day%2027
 [28]: /Day%2028
 [29]: /Day%2029
+[30]: /Day%2030
 
 <!-- %20 is the URL encoding for a space -->
 
